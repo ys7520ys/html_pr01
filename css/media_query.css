@@ -1,0 +1,141 @@
+/* 모바일 + 태블릿 */
+@media (max-width: 1200px) {
+  header {height:50px; line-height:50px;}  
+  header .logo {margin-left:20px; font-size:18px;}
+  header .menuBtn {margin-right:20px; height:80%; width:50px;}
+  header .mainNav {display:none;}
+  header .mobile_header {display:block;}
+  header .sidebarSubmenu ul li a {color:white; padding:0px 30px; font-size:18px;}
+
+
+
+  .mySwiper {display: none;}
+
+
+
+  .firstSection {position:relative; max-width:500px; width:100%; padding:0px; overflow:hidden; padding-top: 50px;}
+  .firstSection .section-title {padding-top:40px; font-style:normal; letter-spacing:-1px; width:auto; font-size:clamp(32px, 4vw, 50px); font-weight:600; text-align:left; line-height:120%; margin-bottom:10px; padding-left:20px;}
+  .firstSection .section-subtitle {text-align:left; width:auto; line-height:120%; font-size:clamp(16px, 2vw, 18px); padding-left:20px; font-weight:500;}
+  .firstSection .text_box {width: 100%; pointer-events:none;}
+  .firstSection .parent_box {display:none;}
+  .firstSection .text_box .card-title {font-size:clamp(20px, 4vw, 24px); font-weight:500;}
+  .firstSection .text_box p.card-subtitle {font-size:clamp(12px, 2vw, 18px); width:100%; padding:0px 30px; font-weight:500; left:0px; top:70px;}
+  .firstSection .text_box a {display: none;}
+  .firstSection_mobile {display:block;}
+  .firstSection .speech_bubble_mobile {display:block;}
+
+
+
+  section.secondSection {max-width:500px; width:100%; padding:0px 20px; overflow:hidden; padding-top: 50px;}
+  section.secondSection .text_box {padding:0px; width:100%;}
+  .secondSection .text_box ul {padding-left:0px;}
+  .secondSection .text_box h2.section-title {padding-top:40px; width:auto; margin-bottom:10px; font-size:clamp(32px, 4vw, 50px); font-weight:600;}
+  .secondSection .text_box h3.section-subtitle {width:auto; margin-bottom:20px; font-size:clamp(16px, 2vw, 18px); font-weight:500;}
+  section.secondSection .parent_box .img_box {display:none;}
+  section.secondSection .parent_box .text_box ul {margin-top:20px;}
+  .secondSection .text_box ul li:hover {background-color:#3c3c3c; color:white;}
+  .secondSection .text_box ul {font-size:16px; min-height:300px; max-height:400px;}
+  .secondSection .text_box ul li {font-size:clamp(16px, 2vw, 18px); transition:0.3s; height:5vw; min-height:45px; margin-bottom:7px; border:solid 1px black; padding:0px; border-radius:5px; background-color:#EDEDED; box-shadow:0px 10px 10px rgba(0, 0, 0, 0.15); display:flex; align-items:center; justify-content:center;}
+  .secondSection .text_box ul li::before {display:none;}
+  .secondSection .parent_box {position:relative;}
+  .secondSection .speech_bubble_mobile {display:block;}
+
+
+
+  .thirdSection {max-width:500px; width:100%; padding:0px; overflow:hidden; padding-top: 50px;}
+  .thirdSection img {border-top:solid 1px black; border-right:solid 1px black; border-left:solid 1px black;}
+  .thirdSection .text_box {padding:20px 20px 0px 20px; margin:0px; border:solid 1px black;}
+  .thirdSection .section-title {padding-top:40px; text-align:left; margin-bottom:10px; padding-left:20px; font-size:clamp(32px, 4vw, 50px); font-weight:600;}
+  .thirdSection .section-subtitle {text-align:left; margin-bottom:30px; padding-left:20px; font-size:clamp(16px, 2vw, 18px); font-weight:500;}
+  .thirdSection .text_box .card-title {font-size:clamp(20px, 4vw, 24px);}
+  .thirdSection .text_box p.card-subtitle {font-size:clamp(12px, 2vw, 18px); margin-bottom:0px;}
+  .thirdSection .card_box {display:none;}
+  .thirdSection .deco_ {width:100%; min-height:300px; max-height:400px; height:50vw; box-shadow:0px 10px 10px rgba(0, 0, 0, 0.15);}
+  .thirdSection .text_box a {display:none;}
+  .thirdSection_mobile {display:block;}
+  .thirdSection .speech_bubble_mobile {display:block;}
+
+
+
+  .bannerSection {width:100%;}
+  .bannerSection img {width:100%;}
+
+
+
+  .fourthSection {max-width:500px; width:100%; padding:0px; overflow:hidden; padding-top: 50px;}
+  .fourthSection .card  {padding:25px 20px; margin:0px; transition:none;}
+  .fourthSection .card_box {display:none;}
+  .fourthSection .section-title {text-align:left; font-size:clamp(32px, 4vw, 50px); letter-spacing:-1px; margin-bottom:10px; padding-left:20px; font-weight:600;}
+  .fourthSection .section-subtitle {text-align:left; font-size:clamp(16px, 2vw, 18px); margin-bottom:30px; padding-left:20px; font-weight:500;}
+  .fourthSection .card .text_box {position:relative; margin:0px; width:100%; height:200px;}
+  .fourthSection .card .text_box h2.card-title {font-size:clamp(20px, 4vw, 24px);}
+  .fourthSection .card .text_box p.card-subtitle {font-size:clamp(12px, 2vw, 18px);}
+  .fourthSection .card .text_box a {display:none;}
+  .fourthSection .speech_bubble_mobile {position:absolute; top:-90px; right:20px; z-index:200; width:80px; height:auto;}
+  .fourthSection .speech_bubble_mobile .top_box {width:100%; height:60px; background-color:green; border-radius:5px; background-color:#3c3c3c; font-size:12px; color:white; padding:15px 10px; line-height:120%;}
+  .fourthSection .speech_bubble_mobile .triangle_box {position:absolute; top:50px; left:20px; width:15px; height:15px; rotate:45deg; background-color:#3c3c3c;}
+  .fourthSection_mobile {display:block;}
+
+  .line-break::after {content:""; display:block; width:100%; height:0;}
+
+  footer {width:100%; padding: 50px 20px;}
+  footer nav {width:100%; flex-direction: column;}
+  footer nav .footer_detailLink{
+    margin-top: 30px;
+  }
+  footer nav .footer_info p, footer nav .footer_detailLink a{
+    font-size: 12px;
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1340px) {
+
+  header .mainNav {width: 46vw;}
+  .sidebar {width:40%; right:-40%;}
+
+  .firstSection {width:100%; height:100vh; padding:0px 20px;}/*겹침*/
+  .firstSection .parent_box {width:100%; height:33vw;}
+  .firstSection .img_box {width:49%;}
+  .firstSection h2.section-title {font-size:4vw;}
+  .firstSection h3.section-subtitle {font-size:1.8vw;}
+  .firstSection .text_box h2.card-title {font-size:2.6vw;}
+  .firstSection .text_box {height:18vw;}
+  .firstSection .text_box p.card-subtitle {font-size:1.4vw; width:40vw;}
+  .firstSection_mobile {display:none;}
+  .firstSection .speech_bubble_mobile {display:none;}
+
+  .secondSection {width:100%; height:100vh; padding:0px 20px;}/*겹침*/
+  .secondSection .parent_box {width:100%; height:39vw;}
+  .secondSection .text_box h2.section-title {font-size:4.5vw; margin-bottom:1.2vw;}
+  .secondSection .text_box h3.section-subtitle {font-size:1.6vw;}
+  .secondSection .text_box ul {font-size:1.4vw; margin-top:4vw;};
+  .secondSection .img_box {gap:1vw; margin-left:1vw;}
+  .secondSection .speech_bubble_mobile {display:none;}
+
+  .thirdSection {width:100%; height:100vh; padding:0px 20px;}/*겹침*/
+  .thirdSection .card_box .deco_ {height:38vw;}
+  .thirdSection h2.section-title {font-size:4.5vw; margin-bottom:1.5vw;}
+  .thirdSection h3.section-subtitle {font-size:1.6vw; margin-bottom:8vw;}
+  .thirdSection .text_box {padding:1.7vw 1.5vw;}
+  .thirdSection .text_box h2.card-title {font-size:1.7vw; margin-bottom:1vw;}
+  .thirdSection .text_box p.card-subtitle {font-size:1.3vw; margin-bottom:4.1vw;}
+  .thirdSection .text_box a {padding:1vw 0px;}
+  .thirdSection_mobile {display:none;}
+  .thirdSection .speech_bubble_mobile {display:none;}
+
+  section.bannerSection {width: 100%;}
+
+  .fourthSection {width:100%; height:100vh; padding:0px 20px;}/*겹침*/
+  .fourthSection h2.section-title {font-size:4.5vw; margin-bottom:1.3vw; color:#333;}
+  .fourthSection h3.section-subtitle {font-size:1.6vw;}
+  .fourthSection .card_box {margin-top:2vw;}
+  .fourthSection .card_box .card {padding:2vw 0px 0px 2vw; height:23vw; width:30vw;}
+  .fourthSection .card_box .card .img_box {width:2.5vw; margin-bottom:1.2vw;}
+  .fourthSection .card_box .card .text_box {position:relative; margin-bottom:1vw; width:25vw; height:230px;}
+  .fourthSection .card_box .card .text_box h2.card-title {font-size:1.5vw; margin-bottom:1.2vw;}
+  .fourthSection .card_box .card .text_box p.card-subtitle {font-size:1.2vw;}
+  .fourthSection .card_box .card .text_box a {top:13vw;}
+  .fourthSection_mobile {display:none;}
+  .fourthSection .speech_bubble_mobile {display:none;}
+}
