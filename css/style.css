@@ -844,7 +844,7 @@ footer nav{
 footer nav .footer_info{
   font-size: 14px;
   line-height: 140%;
-  letter-spacing: -2.5%;
+  letter-spacing: -0.35px;
 
 }
 footer nav .footer_info p{
@@ -855,7 +855,7 @@ footer nav .footer_detailLink{
   display: flex;
   gap: 15px;
   line-height: 140%;
-  letter-spacing: -2.5%;
+  letter-spacing: -0.35px;
   font-size: 14px;
 }
 footer nav .footer_detailLink a{
