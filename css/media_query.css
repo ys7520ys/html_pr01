@@ -7,11 +7,7 @@
   header .mobile_header {display:block;}
   header .sidebarSubmenu ul li a {color:white; padding:0px 30px; font-size:18px;}
 
-
-
   .mySwiper {display: none;}
-
-
 
   .firstSection {position:relative; max-width:500px; width:100%; padding:0px; overflow:hidden; padding-top: 50px;}
   .firstSection .section-title {padding-top:40px; font-style:normal; letter-spacing:-1px; width:auto; font-size:clamp(32px, 4vw, 50px); font-weight:600; text-align:left; line-height:120%; margin-bottom:10px; padding-left:20px;}
@@ -23,8 +19,6 @@
   .firstSection .text_box a {display: none;}
   .firstSection_mobile {display:block;}
   .firstSection .speech_bubble_mobile {display:block;}
-
-
 
   section.secondSection {max-width:500px; width:100%; padding:0px 20px; overflow:hidden; padding-top: 50px;}
   section.secondSection .text_box {padding:0px; width:100%;}
@@ -40,8 +34,6 @@
   .secondSection .parent_box {position:relative;}
   .secondSection .speech_bubble_mobile {display:block;}
 
-
-
   .thirdSection {max-width:500px; width:100%; padding:0px; overflow:hidden; padding-top: 50px;}
   .thirdSection img {border-top:solid 1px black; border-right:solid 1px black; border-left:solid 1px black;}
   .thirdSection .text_box {padding:20px 20px 0px 20px; margin:0px; border:solid 1px black;}
@@ -55,12 +47,8 @@
   .thirdSection_mobile {display:block;}
   .thirdSection .speech_bubble_mobile {display:block;}
 
-
-
   .bannerSection {width:100%;}
   .bannerSection img {width:100%;}
-
-
   
   .fourthSection {max-width:500px; width:100%; padding:0px; overflow:hidden; padding-top: 50px;}
   .fourthSection .card  {padding:25px 20px; margin:0px; transition:none;}
@@ -85,7 +73,6 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1340px) {
-
   header .mainNav {width: 46vw;}
   .sidebar {width:40%; right:-40%;}
 
