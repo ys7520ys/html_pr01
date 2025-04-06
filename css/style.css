@@ -5,10 +5,6 @@ body{
 }
 /* body end */
 
-
-
-
-
 /* main start */
 main{
   opacity: 0;
@@ -17,20 +13,12 @@ main{
 }
 /* main end */
 
-
-
-
-
 /* pageChange start */
 main.loaded{
   opacity: 1;
   transform: translateY(0px);
 }
 /* pageChange end */
-
-
-
-
 
 /* deskTop header start */
 /* header start */
@@ -93,10 +81,6 @@ header .mainNav li{
 }
 /* header end */
 
-
-
-
-
 /* menu button start */
 .menuBtn{
   position: absolute;
@@ -123,10 +107,6 @@ header .mainNav li{
 }
 /* menu button end */
 
-
-
-
-
 /* sidebar start */
 .sidebar{
   display: none;
@@ -143,9 +123,6 @@ header .mainNav li{
   right: 0%;
 }
 /* sidebar end */
-
-
-
 
 /* sidebarSubmenu start */
 .sidebarSubmenu{
@@ -171,10 +148,6 @@ ul.subCategory{
   display: none;
 }
 /* sidebarSubmenu end */
-
-
-
-
 
 /* menuClose button start */
 .menuCloseBtn{
@@ -203,10 +176,6 @@ ul.subCategory{
 }
 /* menuClose button end */
 /* deskTop header end */
-
-
-
-
 
 /* swiper_section start */
 .mySwiper {
@@ -243,10 +212,6 @@ ul.subCategory{
   background: #ffffff;
 }
 /* swiper_section end */
-
-
-
-
 
 /* first_section start */
 .firstSection{
@@ -348,10 +313,6 @@ ul.subCategory{
 } 
 /* first_section end */
 
-
-
-
-
 /* firstSection_mobile start */
 .firstSection_mobile{
   margin-top: 20px;
@@ -412,10 +373,6 @@ ul.subCategory{
   background-color: #ffffff;
 }
 /* firstSection_mobile end */
-
-
-
-
 
 /* second_section start */
 .secondSection{
@@ -546,10 +503,6 @@ ul.subCategory{
   background-color: #3c3c3c;
 }
 /* second_section end */
-
-
-
-
 
 /* third_section start */
 .thirdSection{
@@ -685,10 +638,6 @@ ul.subCategory{
 }
 /* third_section end */
 
-
-
-
-
 /* banner_section start */
 section.bannerSection{
   position: relative;
@@ -704,10 +653,6 @@ section.bannerSection img{
   object-fit: cover;
 }
 /* banner_section end */
-
-
-
-
 
 /* fourth_section start */
 .fourthSection{
@@ -817,10 +762,6 @@ section.bannerSection img{
 }
 /* fourth_section end */
 
-
-
-
-
 /* footer start*/
 footer{
   width: 100%;
@@ -858,10 +799,6 @@ footer nav .footer_detailLink a{
 }
 /* footer end */
 
-
-
-
-
 /* sr-only start */
 .sr-only {
   position: absolute;
@@ -875,7 +812,6 @@ footer nav .footer_detailLink a{
   border: 0;
 }
 /* sr-only end */
-
 
 /* speechBubble start */
 .speech_bubble{
