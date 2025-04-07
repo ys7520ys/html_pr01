@@ -15,7 +15,7 @@
   .firstSection .text_box {width: 100%; pointer-events:none;}
   .firstSection .parent_box {display:none;}
   .firstSection .text_box .card-title {font-size:clamp(20px, 4vw, 24px); font-weight:500;}
-  .firstSection .text_box p.card-subtitle {font-size:clamp(12px, 2vw, 18px); width:100%; padding:0px 30px; font-weight:500; left:0px; top:70px;}
+  .firstSection .text_box p.card-subtitle {font-size:clamp(14px, 2vw, 18px); width:100%; padding:0px 30px; font-weight:500; left:0px; top:70px;}
   .firstSection .text_box a {display: none;}
   .firstSection_mobile {display:block;}
   .firstSection .speech_bubble_mobile {display:block;}
@@ -27,7 +27,8 @@
   .secondSection .text_box h3.section-subtitle {width:auto; margin-bottom:20px; font-size:clamp(16px, 2vw, 18px); font-weight:500;}
   section.secondSection .parent_box .img_box {display:none;}
   section.secondSection .parent_box .text_box ul {margin-top:20px;}
-  .secondSection .text_box ul li:hover {background-color:#3c3c3c; color:white;}
+  .secondSection .text_box ul li:hover {background-color:#3c3c3c;}
+  .secondSection .text_box ul li:hover a{color: white;}
   .secondSection .text_box ul {font-size:16px; min-height:300px; max-height:400px;}
   .secondSection .text_box ul li {font-size:clamp(16px, 2vw, 18px); transition:0.3s; height:5vw; min-height:45px; margin-bottom:7px; border:solid 1px black; padding:0px; border-radius:5px; background-color:#EDEDED; box-shadow:0px 10px 10px rgba(0, 0, 0, 0.15); display:flex; align-items:center; justify-content:center;}
   .secondSection .text_box ul li::before {display:none;}
@@ -40,7 +41,7 @@
   .thirdSection .section-title {padding-top:40px; text-align:left; margin-bottom:10px; padding-left:20px; font-size:clamp(32px, 4vw, 50px); font-weight:600;}
   .thirdSection .section-subtitle {text-align:left; margin-bottom:30px; padding-left:20px; font-size:clamp(16px, 2vw, 18px); font-weight:500;}
   .thirdSection .text_box .card-title {font-size:clamp(20px, 4vw, 24px);}
-  .thirdSection .text_box p.card-subtitle {font-size:clamp(12px, 2vw, 18px); margin-bottom:0px;}
+  .thirdSection .text_box p.card-subtitle {font-size:clamp(14px, 2vw, 18px); margin-bottom:0px;}
   .thirdSection .card_box {display:none;}
   .thirdSection .deco_ {width:100%; min-height:300px; max-height:400px; height:50vw; box-shadow:0px 10px 10px rgba(0, 0, 0, 0.15);}
   .thirdSection .text_box a {display:none;}
@@ -57,7 +58,7 @@
   .fourthSection .section-subtitle {text-align:left; font-size:clamp(16px, 2vw, 18px); margin-bottom:30px; padding-left:20px; font-weight:500;}
   .fourthSection .card .text_box {position:relative; margin:0px; width:100%; height:200px;}
   .fourthSection .card .text_box h2.card-title {font-size:clamp(20px, 4vw, 24px);}
-  .fourthSection .card .text_box p.card-subtitle {font-size:clamp(12px, 2vw, 18px);}
+  .fourthSection .card .text_box p.card-subtitle {font-size:clamp(14px, 2vw, 18px);}
   .fourthSection .card .text_box a {display:none;}
   .fourthSection .speech_bubble_mobile {position:absolute; top:-90px; right:20px; z-index:200; width:80px; height:auto;}
   .fourthSection .speech_bubble_mobile .top_box {width:100%; height:60px; background-color:green; border-radius:5px; background-color:#3c3c3c; font-size:12px; color:white; padding:15px 10px; line-height:120%;}
