@@ -1,10 +1,10 @@
-# 프로젝트 이름 (html_pr01)
+## 프로젝트 이름 (html_pr01)
 HTML 기반 "어스위드(EARTHWITH)" 퍼블리싱 포트폴리오
 
-# 배포 링크
+## 배포 링크
 <https://subtle-panda-ef9709.netlify.app>
 
-# 개요 (OverView)
+## 개요 (OverView)
 실제로 존재하는 사이트는 아니지만 자연환경을 보호하며,
 지구촌의 단합력을 증진하기 위해서 직접 UI,UX를 생각하면서
 제작한 사이트입니다. (HTML, PHP) 두 종류로 구성하였습니다.
