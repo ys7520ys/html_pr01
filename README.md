@@ -2,7 +2,7 @@
 HTML 기반 "어스위드(EARTHWITH)" 퍼블리싱 포트폴리오
 
 # 배포 링크
-cheery-banoffee-8f1948.netlify.app
+<https://subtle-panda-ef9709.netlify.app>
 
 # 개요 (OverView)
 실제로 존재하는 사이트는 아니지만 자연환경을 보호하며,
